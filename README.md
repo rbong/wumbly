@@ -5,6 +5,8 @@ Wumbly is a color scheme.
 It uses 3 constant bytes for its different colours to make it easy to type in.
 It is designed for high colour-on-colour readability.
 
+wumbly is available for iTerm, with color addons for vim and vim-airline.
+
 ## Colour Codes
 
 ```
