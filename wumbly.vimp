@@ -1,0 +1,65 @@
+" RD #ff2f94
+" GR #99fa2a
+" YL #ff942a
+" BL #2a94ff
+" MG #9437ff
+" CY #2bfa94
+" WH #ffffff
+" BK #2a2a2a
+" WW #949494
+" BB #3a3a3a
+
+hi  Bell                          background: #ffffff; border: none; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Boolean                       color: #ff2f94; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  CmdLine                       background: #2a2a2a; color: #ffffff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; transition: all 0.25s;
+hi  CmdLine>*                     background: #2a2a2a; color: #ffffff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; transition: all 0.25s;
+hi  CmdOutput                     font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; white-space: pre;
+hi  CompDesc                      color: #2a94ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; max-width: 500px; width: 500px;
+hi  CompGroup                     font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  CompGroup:not(:first-of-type) font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; margin-top: 1ex;
+hi  CompIcon                      display: inline-block; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; margin-right: .5ex; min-width: 16px; width: 16px;
+hi  CompIcon>img                  font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; max-height: 16px; max-width: 16px; vertical-align: middle;
+hi  CompItem>*                    font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; height: 18px; min-height: 18px; padding: none;
+hi  CompItem[selected]            background: #3a3a3a; box-shadow: none; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  CompMsg                       font-family: 'Source Code Pro'; font-size: 9pt; font-style: none; font-weight: normal; margin-left: 16px;
+hi  CompResult                    font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; max-width: 500px; overflow: hidden; width: 500px;
+hi  CompTitle                     background: none; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  CompTitle>*                   border-bottom: 1px solid #99ccff; color: #ffffff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; padding: none; text-shadow: none;
+hi  ContentSeparator              display: -moz-box; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Disabled                      color: #ff2f94; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Enabled                       color: #99fa2a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  ErrorMsg                      background: #ff2f94; color: #ffffff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Filter                        color: #99fa2a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  FrameIndicator                background: #ff2f94; bottom: 0; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; left: 0; opacity: 0.5; position: fixed; right: 0; top: 0; z-index: 999;
+hi  Function                      color: 268bd2; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Hint                          background: #2a2a2a; border-color: none; border-style: solid; border-width: 0px; color: #ffffff; padding: 1px; text-transform: uppercase; z-index: 9999;
+hi  Hint::after                   content: attr(number);
+hi  HintActive                    background: #2bfa94; color: #2a2a2a;
+hi  HintElem                      background: #3a3a3a; color: #cccccc;
+hi  HintImage                     opacity: 0.5;
+hi  Indicator                     color: #2a94ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  InfoMsg                       background: #2a2a2a; color: #9437ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Keyword                       color: #ff2f94; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  LineNr                        background: #2a2a2a; color: #ffcc99; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Mapping                       color: #9437ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Message                       display: block; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; white-space: normal;
+hi  ModeMsg                       background: #99fa2a; border-radius: 1px; color: #2a2a2a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; padding: 0px 5px;
+hi  MoreMsg                       background: #2a2a2a; color: #99fa2a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  NonText                       color: #2a94ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; min-height: 16px; padding-left: 2px;
+" background is #2a2a2a with white removed and opacity inserted
+hi  Normal                        opacity: 0.82; background: #2a2a2a; color: #ffffff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Null                          color: #2a94ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Number                        color: #2a94ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Object                        color: #ff942a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Preview                       color: #99ccff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Prompt                        background-position: center; background-repeat: no-repeat; background: url("chrome://liberator/skin/prompt.png"); font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; width: 10px;
+hi  PromptText                    background: #cc99ff; color: #2a2a2a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Question                      background: #2a2a2a; color: #99fa2a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  StatusLine                    background: transparent; color: #3a3a3a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  String                        color: #99fa2a; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  TabNumber                     font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; margin: 0px; padding-right: .3ex;
+hi  Tag                           color: #2a94ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
+hi  Title                         background: none; color: #cc99ff; font-family: 'Source Code Pro'; font-size: 9pt; font-size: 9pt; font-weight: normal;
+hi  URL                           color: #2a94ff; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; text-decoration: none;
+hi  URL:hover                     cursor: pointer; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal; text-decoration: underline;
+hi  WarningMsg                    background: #2a2a2a; color: #ff2f94; font-family: 'Source Code Pro'; font-size: 9pt; font-weight: normal;
